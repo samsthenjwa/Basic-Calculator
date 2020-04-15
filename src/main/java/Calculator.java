@@ -16,51 +16,25 @@ public class Calculator {
 
 
 
-    public static  int add(int num1, int num2)
+    public static  int add(int...num1)
     {
-        int sum = num1 + num2;
-        return sum;
+        int total = 0;
+
+        for (int x:num1) {
+            total+=x;
+        }
+
+        return total;
     }
 
-    public static  int add(int num1, int num2,int num3)
-    {
-        int sum = num1 + num2 + num3;
-        return sum;
-    }
 
-    public static  int add(int num1, int num2,int num3,int num4)
+    public static int multiply(int... num2)
     {
-        int sum = num1 + num2 + num3 + num4;
-        return sum;
-    }
+        int product = num2[0];
 
-    public static  int add(int num1, int num2,int num3,int num4,int num5)
-    {
-        int sum = num1 + num2 + num3 + num4 + num5;
-        return sum;
-    }
-
-    public static int multiply(int num1, int num2)
-    {
-        int product = num1 * num2;
-        return product;
-    }
-
-    public static  int multiply(int num1, int num2,int num3)
-    {
-        int product = num1 * num2 * num3;
-        return product;
-    }
-
-    public static  int multiply(int num1, int num2,int num3,int num4)
-    {
-        int product = num1 * num2 * num3 * num4;
-        return product;
-    }
-
-    public static  int multiply(int num1, int num2,int num3,int num4,int num5)
-    {
-        int product = num1 * num2 * num3 * num4 * num5;
+        for (int i = 1; i < num2.length; i++) {
+            product  = product * num2[i];
+        }
         return product;
     }
 

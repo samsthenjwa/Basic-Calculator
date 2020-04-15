@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-11T09:00:44" hostname="admin1-ThinkCentre-M72e" time="0.001">
+<testsuite name="CalculatorTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-15T02:42:29" hostname="recruit-ThinkCentre-M72e" time="0.005">
   <properties/>
-  <testcase name="multiplyMethodFiveValue" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addMethodFiveValue" classname="CalculatorTest" time="0.001"/>
+  <testcase name="multiplyMethodTwoValue" classname="CalculatorTest" time="0.0"/>
+  <testcase name="multiplyMethodFiveValue" classname="CalculatorTest" time="0.0"/>
+  <testcase name="multiplyMethodThreeValue" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addMethodFourValue" classname="CalculatorTest" time="0.0"/>
+  <testcase name="addMethodTwoValue" classname="CalculatorTest" time="0.0"/>
+  <testcase name="multiplyMethodFourValue" classname="CalculatorTest" time="0.0"/>
+  <testcase name="addMethodThreeValue" classname="CalculatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

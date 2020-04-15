@@ -4,51 +4,43 @@ import org.junit.Test;
 public class CalculatorTest {
     @Test
     public void addMethodTwoValue() {
-        int num1 = 1,num2 = 2;
-        Assert.assertEquals(3,num1 + num2);
+        Assert.assertEquals(3,Calculator.add(1,2));
     }
 
     @Test
     public void addMethodThreeValue() {
-        int num1 = 1,num2 = 2 , num3 = 3;
-        Assert.assertEquals(6,num1 + num2 + num3);
+        Assert.assertEquals(6,Calculator.add(1,2,3));
     }
 
     @Test
     public void addMethodFourValue() {
-        int num1 = 1,num2 = 2, num3 = 3, num4 = 4;
-        Assert.assertEquals(10,num1 + num2 + num3 + num4);
+        Assert.assertEquals(10,Calculator.add(1,2,3,4));
     }
 
     @Test
     public void addMethodFiveValue() {
-        int num1 = 1,num2 = 2, num3 = 3, num4 = 4, num5 = 5;
-        Assert.assertEquals(15,num1 + num2 + num3 + num4 + num5);
+        Assert.assertEquals(15,Calculator.add(1,2,3,4,5));
     }
 
 
 
     @Test
     public void multiplyMethodTwoValue() {
-        int num1 = 1,num2 = 2;
-        Assert.assertEquals(2,num1 * num2);
+        Assert.assertEquals(3,Calculator.multiply(1,3));
     }
     @Test
     public void multiplyMethodThreeValue() {
-        int num1 = 1,num2 = 2, num3 = 3;
-        Assert.assertEquals(6,num1 * num2 * num3);
+        Assert.assertEquals(6,Calculator.multiply(1,2,3));
     }
 
     @Test
     public void multiplyMethodFourValue() {
-        int num1 = 1,num2 = 2, num3 = 3, num4 = 4;
-        Assert.assertEquals(24,num1 * num2 * num3 * num4);
+        Assert.assertEquals(24,Calculator.multiply(1,2,3,4));
     }
 
     @Test
     public void multiplyMethodFiveValue() {
-        int num1 = 1,num2 = 2, num3 = 3, num4 = 4, num5 = 5;
-        Assert.assertEquals(120,num1 * num2 * num3 * num4 * num5);
+        Assert.assertEquals(120,Calculator.multiply(1,2,3,4,5));
     }
 
 }
